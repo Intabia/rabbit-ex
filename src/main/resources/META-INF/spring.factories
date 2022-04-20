@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.intabia.rabbitex.config.PoliticConfiguration, \
+com.intabia.rabbitex.config.DeserializationExceptionHandlerConfiguration, \
+com.intabia.rabbitex.executor.RabbitMQRetryExecutor, \
+com.intabia.rabbitex.config.RabbitCommon
