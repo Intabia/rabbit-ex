@@ -1,0 +1,9 @@
+/* TEAM */
+	Maintainer: Victor Borovlev
+	email: borovl.victor@gmail.com
+	From: Novosibirsk, Russia
+  
+/* THANKS */
+	Founder: Ilya Nepomnyaschy
+	github: https://github.com/Nepomnyaschy
+	From: Novosibirsk, Russia
