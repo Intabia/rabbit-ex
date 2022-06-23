@@ -1,5 +1,9 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.intabia.rabbitex.config.PoliticConfiguration, \
+com.intabia.rabbitex.executor.RabbitExExecutor, \
+com.intabia.rabbitex.config.RabbitCommon, \
+com.intabia.rabbitex.manager.logic.FailureLogicChainHolder, \
+com.intabia.rabbitex.RabbitMQFailureLogicBeanPostProcessor, \
+com.intabia.rabbitex.logic.RetryRabbitMQFailureLogicHolder, \
 com.intabia.rabbitex.config.DeserializationExceptionHandlerConfiguration, \
-com.intabia.rabbitex.executor.RabbitMQRetryExecutor, \
-com.intabia.rabbitex.config.RabbitCommon
+com.intabia.rabbitex.logic.ParkingRabbitMQFailureLogicHolder, \
+com.intabia.rabbitex.executor.RabbitMQFailureLogicsExecutor

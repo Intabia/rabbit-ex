@@ -11,9 +11,9 @@
 
     <groupId>com.intabia</groupId>
     <artifactId>rabbit-ex</artifactId>
-    <version>0.0.2-RELEASE</version>
-    <name>rabbit-retry-library</name>
-    <description>rabbit-retry-library</description>
+    <version>0.0.4-RELEASE</version>
+    <name>rabbit-ex</name>
+    <description>rabbit-ex</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -23,7 +23,7 @@
         <junit-engine.version>5.7.2</junit-engine.version>
         <junit-vintage.version>5.7.2</junit-vintage.version>
         <mockk.version>1.12.0</mockk.version>
-        <spring-cloud.version>3.0.3</spring-cloud.version>
+        <spring-cloud.version>3.1.2</spring-cloud.version>
         <klogger.version>1.12.5</klogger.version>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <jackson.version>2.13.2</jackson.version>
